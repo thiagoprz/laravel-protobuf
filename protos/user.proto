@@ -1,0 +1,8 @@
+syntax = "proto3";
+option php_metadata_namespace = "GPBMetadata";
+
+message User {
+    string name = 1;
+    string email = 2;
+    int32 age = 3;
+}
